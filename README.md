@@ -22,21 +22,22 @@ gibi bilgisayarla görü görevlerini gerçekleştirmektedir.
 Aşağıdaki görseller proje çıktılarından oluşur.  
 Görselleri repo içinde şu klasöre koymalısın: **report/figures/**
 
+# 🖼️ Örnek Çıktılar
+
 ### 🔹 HOG Özellik Görselleştirmesi
-![HOG Visualization](report/figures/hog_vis_01.png)
+![HOG Visualization](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/hog_vis_01.png)
 
 ### 🔹 İnsan Tespiti (Pedestrian Detection)
-![Detection Example 1](report/figures/detection_01.png)
-![Detection Example 2](report/figures/detection_02.png)
+![Detection Example 1](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/detection_01.png)
+![Detection Example 2](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/detection_02.png)
 
-### 🔹 Araç Tespiti (Custom Detector)
-![Car Detection](report/figures/car_detection_01.png)
 
 ### 🔹 Sınıflandırma – Confusion Matrix
-![Confusion Matrix](report/figures/classification_matrix.png)
+![Confusion Matrix](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/classification_matrix.png)
 
 ### 🔹 Accuracy Grafiği
-![Accuracy Plot](report/figures/accuracy_plot.png)
+![Accuracy Plot](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/accuracy_plot.png)
+
 
 ---
 
