@@ -22,21 +22,24 @@ gibi bilgisayarla görü görevlerini gerçekleştirmektedir.
 Aşağıdaki görseller proje çıktılarından oluşur.  
 Görselleri repo içinde şu klasöre koymalısın: **report/figures/**
 
-# 🖼️ Örnek Çıktılar
+
 
 ### 🔹 HOG Özellik Görselleştirmesi
-![HOG Visualization](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/hog_vis_01.png)
+![HOG Visualization](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/hog_crop001036.png)
 
 ### 🔹 İnsan Tespiti (Pedestrian Detection)
-![Detection Example 1](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/detection_01.png)
-![Detection Example 2](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/detection_02.png)
+![Detection Example 1](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/crop001504.png)
+![Detection Example 2](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/crop001512.png)
 
+### 🔹 Araç Tespiti (Custom Detector)
+![Car Detection](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/person_204.png)
 
 ### 🔹 Sınıflandırma – Confusion Matrix
-![Confusion Matrix](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/classification_matrix.png)
+![Confusion Matrix](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/SVM_confusion_matrix.png)
 
 ### 🔹 Accuracy Grafiği
-![Accuracy Plot](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/accuracy_plot.png)
+![Accuracy Plot](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/accuracy_comparison.png)
+
 
 
 ---
