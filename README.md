@@ -1,28 +1,23 @@
 # 🧠 HOG Based Object Detection & Classification  
-### Bilgisayarla Görü – Histogram of Oriented Gradients (HOG) Uygulaması  
+### Histogram of Oriented Gradients (HOG) ile Nesne Tespiti ve Sınıflandırma  
 **Büşra Mina AL – OSTİM Teknik Üniversitesi, AI Engineering**
 
 ---
 
 ## 📌 Proje Özeti
 
-Bu proje, Histogram of Oriented Gradients (HOG) yöntemi kullanılarak:
+Bu proje, geleneksel bilgisayarla görü yöntemlerinden biri olan **Histogram of Oriented Gradients (HOG)** algoritmasını kullanarak:
 
-- Görüntülerden özellik çıkarma  
-- İnsan tespiti (pedestrian detection)  
-- Araç tespiti (custom object detection)  
-- HOG + SVM ile görüntü sınıflandırma  
+- Görüntüden özellik çıkarımı  
+- İnsan tespiti (HOG + SVM pedestrian detector)  
+- Araç tespiti (sliding window + HOG SVM)  
+- HOG tabanlı görüntü sınıflandırma  
 
-gibi bilgisayarla görü görevlerini gerçekleştirmektedir.
+gibi görevleri gerçekleştirmektedir.
 
 ---
 
 # 🖼️ Örnek Çıktılar
-
-Aşağıdaki görseller proje çıktılarından oluşur.  
-Görselleri repo içinde şu klasöre koymalısın: **report/figures/**
-
-
 
 ### 🔹 HOG Özellik Görselleştirmesi
 ![HOG Visualization](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/hog_crop001036.png)
@@ -37,8 +32,6 @@ Görselleri repo içinde şu klasöre koymalısın: **report/figures/**
 ### 🔹 Accuracy Grafiği
 ![Accuracy Plot](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/accuracy_comparison.png)
 
-
-
 ---
 
 ## ⚙️ Kurulum
@@ -51,92 +44,54 @@ pip install -r requirements.txt
 
 ## ▶️ Çalıştırma Komutları
 
-### 1) HOG Test
+### HOG Test
 ```bash
 python src/hog_implementation.py
 ```
 
-### 2) İnsan Tespiti
+### İnsan Tespiti
 ```bash
 python src/object_detection.py
 ```
 
-### 3) Araç Tespiti
+### Araç Tespiti
 ```bash
 python src/car_detection.py
 ```
 
-### 4) Sınıflandırma
+### Sınıflandırma
 ```bash
 python src/classification.py
 ```
 
 ---
 
-## 📂 Proje Dosya Yapısı
+## 📂 Proje Yapısı
 
 ```
 project/
 ├── src/
-│   ├── hog_implementation.py
-│   ├── object_detection.py
-│   ├── classification.py
-│   ├── utils.py
-│   └── car_detection.py
-│
 ├── data/
-│   ├── training_set/
-│   └── test_images/
-│
 ├── outputs/
-│   ├── detections/
-│   ├── hog_test_results/
-│   ├── car_detections/
-│   └── classification_results/
-│
 ├── models/
-│   └── trained_classifier.pkl
-│
 ├── report/
 │   ├── report.pdf
-│   └── figures/
-│       ├── hog_vis_01.png
-│       ├── detection_01.png
-│       ├── detection_02.png
-│       ├── car_detection_01.png
-│       ├── classification_matrix.png
-│       └── accuracy_plot.png
-│
+│   ├── figures/
 ├── notebooks/
-│   └── analysis.ipynb
-│
-├── README.md
-└── requirements.txt
+└── README.md
 ```
-
----
-
-## 📦 Kullanılan Teknolojiler
-
-- Python 3.x  
-- OpenCV  
-- NumPy  
-- Matplotlib  
-- Scikit-Learn  
-- Scikit-Image  
-- Joblib  
 
 ---
 
 ## 📝 Sonuç
 
 Bu projede HOG’un:
+
 - Kenar tabanlı özellik çıkarımı  
-- İnsan ve araç tespiti  
+- Nesne tespiti (insan ve araç)  
 - SVM ile sınıflandırma  
 
-gibi alanlardaki gücü test edilmiştir.  
-HOG derin öğrenme yöntemlerine göre daha hafif olmakla birlikte, klasik bilgisayarla görü problemlerinde halen etkilidir.
+gibi görevlerdeki performansı incelenmiştir.
 
 ---
 
