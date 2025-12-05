@@ -31,9 +31,6 @@ Görselleri repo içinde şu klasöre koymalısın: **report/figures/**
 ![Detection Example 1](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/crop001504.png)
 ![Detection Example 2](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/crop001512.png)
 
-### 🔹 Araç Tespiti (Custom Detector)
-![Car Detection](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/person_204.png)
-
 ### 🔹 Sınıflandırma – Confusion Matrix
 ![Confusion Matrix](https://raw.githubusercontent.com/busraminal/busra_mina_al_hog_odev/main/report/figures/SVM_confusion_matrix.png)
 
