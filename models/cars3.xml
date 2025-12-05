@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- PLACEHOLDER MODEL FILE -->
+<!-- Buradaki cars3.xml gerçek model değildir.
+     İnternetten OpenCV'nin HOG car detector dosyasını indirip bu dosyanın üzerine yazmalısınız. -->
+<opencv_storage>
+<svm_detector>
+0
+</svm_detector>
+</opencv_storage>
